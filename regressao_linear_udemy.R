@@ -18,3 +18,10 @@ library(tidyverse)
 # Carregar dados e visualizar gráfico ------------------------------------------------------------------------------------------------------
 
 view(Orange)
+
+qplot(x = age, y = circumference, data = Orange)
+cor.test(Orange$age, Orange$circumference)
+
+# Função da regressão linear ---------------------------------------------------------------------------------------------------------------
+
+
