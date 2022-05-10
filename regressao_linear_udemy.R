@@ -24,4 +24,12 @@ cor.test(Orange$age, Orange$circumference)
 
 # Função da regressão linear ---------------------------------------------------------------------------------------------------------------
 
+rl <- lm(circumference ~ age, data = Orange)
 
+plot(rl) # Gráficos do diagnóstico
+
+summary(rl) # Resultados da regressão linear
+
+# Interpretações da regressão linear -------------------------------------------------------------------------------------------------------
+
+### 
