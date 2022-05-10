@@ -32,4 +32,17 @@ summary(rl) # Resultados da regressão linear
 
 # Interpretações da regressão linear -------------------------------------------------------------------------------------------------------
 
-### 
+### O resultado indica rejeição da hipótese nula (variáveis não relacionadas)
+### p < 0.05
+### R-square responde o quanto o modelo explica a variação e relação entre variáveis
+### Intercepção e inclinação
+
+# Gráfico ----------------------------------------------------------------------------------------------------------------------------------
+
+ggplot(Orange, aes(x = age, y = circumference)) +
+  geom_point(colour = "steelblue", size = 4) +
+  geom_smooth(method = "lm", colour = "black") +
+  labs(title = "Regressão Linear - Dados Orange",
+       x = "Idade das árvores", 
+       y = "Circunferência (mm)") +
+  theme_minimal()
