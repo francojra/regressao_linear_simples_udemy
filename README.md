@@ -1,4 +1,4 @@
-# Regressao Linear Simples Udemy
+# Regressao Linear Simples - Curso Udemy
 
 #### Regressão Linear Simples
 #### Autoria do script: Jeanne Franco
