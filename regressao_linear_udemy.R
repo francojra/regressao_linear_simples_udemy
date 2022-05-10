@@ -46,3 +46,11 @@ ggplot(Orange, aes(x = age, y = circumference)) +
        x = "Idade das árvores", 
        y = "Circunferência (mm)") +
   theme_minimal()
+
+# Outras funções ---------------------------------------------------------------------------------------------------------------------------
+
+coefficients(rl) # Coeficientes do modelo
+confint(rl, level = 0.95) # Intervalo de confiança
+fitted(rl) # Valores previstos
+residuals(rl) # Residuais
+anova(rl) # Tabela ANOVA
